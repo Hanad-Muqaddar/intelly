@@ -20,6 +20,7 @@ import Project from './components/dashboard/project/project';
 import InboxM from './components/dashboard/inbox';
 import Appointments from './components/appointments/appointments';
 import Calender1 from './components/calender/calender1';
+import Chat from './components/dashboard//chat';
 // sample page
 import SupportTicket from './components/support-ticket/supportTicket';
 
@@ -53,6 +54,8 @@ function Root() {
 
                                     {/* Calender */}
                                     <Route path={`${process.env.PUBLIC_URL}/calender/calender1`} component={Calender1} />
+
+                                    <Route path={`${process.env.PUBLIC_URL}/dashboard/chat`} component={Chat}/>
 
                                 </App>
                             </Fragment>
